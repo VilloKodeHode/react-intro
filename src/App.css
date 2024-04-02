@@ -1,0 +1,36 @@
+#root {
+  max-width: 1280px;
+  /* margin: 0 auto; */
+  /* padding: 2rem; */
+  text-align: center;
+}
+
+
+
+header {
+  background-color: #424141;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 80px;
+  align-items: center;
+}
+
+header figure {
+  margin: 0;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  gap: 8px
+}
+
+header nav ul li {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+main {
+  min-height: calc(100vh-74px);
+}
+
