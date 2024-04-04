@@ -1,0 +1,13 @@
+button.std_btn {
+ width: fit-content;
+ justify-self: center;
+}
+
+button.orange_btn {
+    background-color: orange;
+}
+
+/** utils */
+
+
+

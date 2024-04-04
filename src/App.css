@@ -5,10 +5,6 @@
   min-height: 100vh;
 }
 
-
-
-
-
 main {
   padding: 80px 0;
 }
@@ -23,4 +19,17 @@ main .hero {
 button.floating {
   position: absolute;
 }
+
+.box {
+  height: 400px;
+  width: 400px;
+  background-color: rgb(28, 50, 42);
+}
+
+.flex-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
 

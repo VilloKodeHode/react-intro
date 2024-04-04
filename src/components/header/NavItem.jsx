@@ -1,5 +1,7 @@
 
 
+
+
 export const NavItem = ({ text, href }) => {
 
   return (
@@ -8,3 +10,5 @@ export const NavItem = ({ text, href }) => {
     </a>
   );
 };
+
+
