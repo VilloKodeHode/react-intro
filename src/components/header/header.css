@@ -1,0 +1,28 @@
+header {
+    background-color: #424141;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 80px;
+    align-items: center;
+  }
+  
+  header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 8px
+  }
+  
+  header nav ul li {
+    border: 1px solid black;
+    padding: 8px;
+  }
+
+  header nav ul a {
+    transition: 0.3s all;
+ 
+  }
+
+  header nav ul a:hover {
+    scale: 110%;
+    color: white;
+  }

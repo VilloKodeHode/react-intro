@@ -1,0 +1,14 @@
+footer {
+    background-color: #424141;
+    display: grid;
+    gap: 8px;
+    padding: 20px 80px;
+  }
+  
+  footer ul {
+    list-style: none;
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+    align-items: start;
+  }

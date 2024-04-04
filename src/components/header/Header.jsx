@@ -1,4 +1,5 @@
 import { NavBar } from "./Navbar";
+import "./header.css"
 
 export const Header = () => {
     // const activeLink = "link 1"
