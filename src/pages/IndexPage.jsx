@@ -1,16 +1,18 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { StdButton } from "../components/buttons/Buttons";
 
 import "./indexPage.css";
 import { CARDS } from "../data/cards";
 import { TeachingCard } from "../components/cards/Card";
 
-export const IndexPage = ({ count, decrease, increase }) => {
-  console.log(CARDS);
+export const IndexPage = ({ count, decrease, increase, posts }) => {
+  // console.log(CARDS);
 
   const [currentCard, setCurrentCard] = useState(null);
   const [showAnswer, setShowAnswer] = useState(false);
   const [score, setScore] = useState(null);
+
+
 
 
   
@@ -53,13 +55,10 @@ export const IndexPage = ({ count, decrease, increase }) => {
         {/* <StdButton>Click me!</StdButton> */}
       </section>
       <TeachingCard currentCard={currentCard} showAnswer={showAnswer} showRandomCard={showRandomCard} showingAnswer={showingAnswer}/>
-      {/* <section className="intro">
-        <button onClick={showRandomCard}>click to show a card</button>
-        <p>{currentCard?.description}</p>
-        <button onClick={showingAnswer}>Answer</button>
-        <p>{showAnswer && currentCard?.answer}</p>
-      </section> */}
       <button onClick={findScores}>click</button>
+      <section>
+        {posts?.map((post) => <p>{post.name}</p>)}
+      </section>
     </main>
   );
 };
